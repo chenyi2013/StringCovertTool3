@@ -242,3 +242,13 @@ if is_chinese(value) or file_path.find("values-en") >= 0:
       >导入允许导入空
       >
       >重点处理 xml 是空，导入时，Log 输出 xmlValue 为空情况
+  
+  
+  运行前准备：
+  下载完以后需要在StringCovertTool3/tk目录下新建一个名叫__init__.py的空文件
+  然后依次执行：
+  pip3 install --upgrade pip
+  pip3 install tk
+  pip3 install xlrd
+  pip3 install loguru
+  pip3 install pyexcelerate
